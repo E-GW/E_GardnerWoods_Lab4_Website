@@ -1,0 +1,159 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #35bd3a;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #35bd3a;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/E_Background3.PNG");
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 10%;
+}
+
+.jumbotron h2 {
+    font-size: 48px;
+    font-weight: bold;
+    background:hsla(0, 0%, 0%, 0.63);
+}
+
+.jumbotron p {
+    background:hsla(0, 0%, 0%, 0.6);
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#profile-pic {
+    max-width: 100%;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+h1{
+    background:rgba(230, 230, 230, 0.5);
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f5faf1;
+    color: #242424;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.author{
+    background:rgba(230, 230, 230, 0.7);
+    font-weight: 800;
+}
+
+body{
+    font-family: "Baskervville", serif;
+    font-size:x-large;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.no-margin{
+    font-weight: bold;
+}
+
+.credits{
+    font-weight: normal;
+}
+
+iframe{
+    height:400px;
+}
